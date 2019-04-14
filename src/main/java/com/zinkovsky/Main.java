@@ -16,7 +16,7 @@ public class Main {
         System.out.println("PUT: " + service.putPost(post));
         System.out.println("DELETE: " + service.deletePost(post));
         System.out.println("GET /comments?postId=1 : ");
-        System.out.println(service.getCommentsFromPost(1));
+        //System.out.println(service.getCommentsFromPost(1));
         System.out.println("GET /posts?userId=1 : ");
         System.out.println(service.getPostsFromUser(1));
         System.out.println("Get Posts:");
